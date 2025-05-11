@@ -98,21 +98,21 @@ _All endpoints accept HTTP GET and return JSON unless noted otherwise._
 ## Repository Structure
 
 mysite/
-├── mysite/
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── bookstore/
-│   ├── migrations/
-│   │   └── __init__.py
-│   ├── __init__.py
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   └── tests.py
-├── manage.py
-└── README.md
+- mysite/
+  - __init__.py
+  - settings.py
+  - urls.py
+  - wsgi.py
+- bookstore/
+  - migrations/
+    - __init__.py
+  - __init__.py
+  - models.py
+  - views.py
+  - urls.py
+  - tests.py
+- manage.py
+- README.md
 
 ## Installation Guide 
 1. Install Django and dependencies:
