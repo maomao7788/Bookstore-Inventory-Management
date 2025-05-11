@@ -99,23 +99,19 @@ _All endpoints accept HTTP GET and return JSON unless noted otherwise._
 
 mysite/
 ├── mysite/
+│   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
 ├── bookstore/
 │   ├── migrations/
+│   │   └── __init__.py
+│   ├── __init__.py
 │   ├── models.py
 │   ├── views.py
 │   ├── urls.py
-│   ├── templates/
-│   │   └── library/
 │   └── tests.py
-├── UMLs/
-│   ├── Use Case Diagram.png
-│   ├── Class Diagram.png
-│   └── Sequence Diagram.png
 ├── manage.py
-├── requirements.txt
 └── README.md
 
 ## Installation Guide 
