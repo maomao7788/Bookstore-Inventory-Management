@@ -196,7 +196,7 @@ def add_books(request):
         return JsonResponse("Only GET requests are supported", safe=False)
     query = request.GET.get("query", "")
     total_books = int(request.GET.get("total_books", 2000))
-    api_key = request.GET.get("api_key", "AIzaSyCeEdkjt8iezx-EtUTeeQqnERpgems1UHM")
+    api_key = request.GET.get("api_key", "your google book api")
     if not query:
         return JsonResponse( "Query parameter is required", safe=False)
     url = "https://www.googleapis.com/books/v1/volumes"
