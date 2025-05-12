@@ -6,7 +6,7 @@ django.setup()
 import requests
 from bookstore.models import Book,Author
 import requests
-def add_books(query, total_books=10000, API_KEY="AIzaSyCeEdkjt8iezx-EtUTeeQqnERpgems1UHM"):
+def add_books(query, total_books=10000, API_KEY="your google book api"):
     url = "https://www.googleapis.com/books/v1/volumes"
     max_results = 40  
     start_index = 0 
